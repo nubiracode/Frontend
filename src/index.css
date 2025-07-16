@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Bentham&family=Dancing+Script:wght@400..700&family=Exo:ital,wght@0,100..900;1,100..900&family=Frijole&family=Merriweather&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sixtyfour:BLED@0..100&family=Tangerine:wght@400;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.tangerine-regular {
+  font-family: "Tangerine", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.tangerine-bold {
+  font-family: "Tangerine", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+.dancing-script {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.playfair-display-regular {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Scrollbar en general */
+::-webkit-scrollbar {
+  width: 7px;  /* ancho vertical */
+  height: 7px; /* alto horizontal */
+}
+
+/* Fondo del scrollbar */
+::-webkit-scrollbar-track {
+  background: #ffe0f0; /* rosado muy claro */
+  border-radius: 1px;
+}
+
+/* Scrollbar "dedo" */
+::-webkit-scrollbar-thumb {
+  background-color: #ff97bd; /* rosado */
+  border-radius: 1px;
+  border: 1px solid #ffe0f0; /* para efecto de borde blanco-rosado */
+}
+
+/* Hover del scrollbar */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #fe93b9;
+}
+
