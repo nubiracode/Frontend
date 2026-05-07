@@ -46,7 +46,7 @@ const RoutineStepContent = ({ number, label, iconSrc }: RoutineStepProps) => (
 
 const KBeautyRoutine = () => {
   return (
-    <section className="bg-[#ffd6f3] text-[#ff97bdff] py-20 px-4 font-sans">
+    <section className="bg-[#FFF7FB] text-[#ff97bdff] py-20 px-4 font-sans">
       <div className="max-w-7xl mx-auto flex flex-col items-center">
         <div className="w-20 h-0.5 bg-[#f46096ff] mt-10" />
 

@@ -14,8 +14,8 @@ createRoot(document.getElementById('root')!).render(
      <BrowserRouter> 
         <Routes>    
             <Route path="/" element={<App />} />
-           <Route path="/rutina/:categorySlug" element={<ProductCategoryPage />} />
-           <Route path="/producto/:id" element={<ProductDetailPage />} />
+           <Route path="/:categorySlug" element={<ProductCategoryPage />} />
+           <Route path="/:categorySlug/:id" element={<ProductDetailPage />} />
 
          
         </Routes>
