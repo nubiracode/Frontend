@@ -37,7 +37,7 @@ const PHASES: Phase[] = [
     steps: [
       { num: 1, label: "Limpieza oleosa", img: "/6.png", route: '/limpieza-oleosa' },
       { num: 2, label: "Limpieza acuosa", img: "/7.png", route: '/limpieza-acuosa' },
-      { num: 3, label: "Exfoliante",      img: "/8.png", route: '/exfoliante' },
+      { num: 3, label: "Exfoliante",      img: "/8.png", route: '/exfoliantes' },
     ],
   },
   {
@@ -46,9 +46,9 @@ const PHASES: Phase[] = [
     subtitle: "Activos que transforman tu piel",
     avatar: "/20.png",
     steps: [
-      { num: 4, label: "Tónico",     img: "/9.png", route: '/tonico' },
-      { num: 5, label: "Mascarilla", img: "/10.png", route: '/mascarilla' },
-      { num: 6, label: "Escencia",   img: "/11.png", route: '/escencia' },
+      { num: 4, label: "Tónico",     img: "/9.png", route: '/tonicos' },
+      { num: 5, label: "Mascarilla", img: "/10.png", route: '/mascarillas' },
+      { num: 6, label: "Escencia",   img: "/11.png", route: '/escencias' },
     ],
   },
   {
@@ -57,8 +57,8 @@ const PHASES: Phase[] = [
     subtitle: "Sella y nutre en profundidad",
     avatar: "/18.png",
     steps: [
-      { num: 7, label: "Sérum",            img: "/12.png", route: '/serum' },
-      { num: 8, label: "Contorno",         img: "/13.png", route: '/contorno' },
+      { num: 7, label: "Sérum",            img: "/12.png", route: '/serums' },
+      { num: 8, label: "Contorno",         img: "/13.png", route: '/contorno-de-ojos' },
       { num: 9, label: "Crema hidratante", img: "/14.png" },
     ],
   },
@@ -234,14 +234,13 @@ function PhaseRow({ phase }: { phase: Phase }) {
   );
 }
 
-/* ─── Main ──────────────────────────────────────────────── */
+
 export default function BeautyRoutine() {
   useFonts();
 
   return (
    <section
-      className="w-full py-20 flex justify-center"
-      style={{ background: "#f8e8ed" }}
+      className="w-full py-20 flex justify-center bg-gradient-to-r from-pink-150 via-pink-50 to-pink-150"
     >
       {/* dot pattern */}
       <div

@@ -41,7 +41,7 @@ const NAV_LINKS = [
       tag: '✦ Guía',
       title: 'Arma tu rutina ideal',
       desc: 'Productos según tu tipo de piel',
-      href: '#rutina',
+      href: '/yourRoutine',
       cta: 'Descubrir',
     },
     subcategories: [
